@@ -1,0 +1,8 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, sans-serif; background: #e0f2fe; color: #0f172a; }
+.navbar { background: #1e3a8a; color: #fff; padding: 12px 20px; display: flex;
+          justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; }
+.navbar h1 { font-size: 1.2rem; margin: 0; }
+.links a { color: #cbd5e1; margin-left: 16px; text-decoration: none; }
+.links a.active { color: #fff; border-bottom: 2px solid #fff; }
+.container { max-width: 900px; margin: 20px auto; padding: 0 16px; }
